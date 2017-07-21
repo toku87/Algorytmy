@@ -1,8 +1,16 @@
-/**
- * Created by RENT on 2017-07-20.
- */
+import Algorithms.AbstractAlgorithm;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hi");
+    public static void main(String[] args) throws Exception {
+        String algorithmName = args[0];
+
+        AlgorithmFabric factory = new AlgorithmFabric();
+        AbstractAlgorithm algorithm =
+                factory.getAlgorithm(algorithmName);
+
+//        for (String s : args) {
+//            System.out.println(s);}
+
+
     }
 }
