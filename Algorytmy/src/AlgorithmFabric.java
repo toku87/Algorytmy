@@ -1,4 +1,5 @@
 import Algorithms.AbstractAlgorithm;
+import Algorithms.BiednyCamelCase;
 import Algorithms.Test;
 
 
@@ -7,6 +8,8 @@ public class AlgorithmFabric {
         switch (name.toLowerCase()) {
             case "test":
                 return new Test();
+            case "biednycamelcase" :
+                return new BiednyCamelCase();
 
                 default:
                     throw new Exception("Brak algorytmu");

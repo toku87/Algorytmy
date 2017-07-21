@@ -4,9 +4,7 @@ import Algorithms.AbstractAlgorithm;
 
 public class Test extends AbstractAlgorithm {
 
-    public Test () {
-        System.out.println("Konstruktor TEST");
-    }
+
 
 
     @Override
