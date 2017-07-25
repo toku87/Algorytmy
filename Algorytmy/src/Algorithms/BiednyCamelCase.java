@@ -6,7 +6,7 @@ public class BiednyCamelCase extends AbstractAlgorithm {
 
     @Override
     public String getName() {
-        return "biednycamelcase";
+        return "biedny camel case";
     }
 
     @Override
@@ -28,6 +28,7 @@ public class BiednyCamelCase extends AbstractAlgorithm {
                 literka++;
             }
 
+            System.out.print(" ");
         }
 
     }

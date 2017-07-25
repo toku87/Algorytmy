@@ -16,6 +16,16 @@ public class AlgorithmFabric {
                 return new WydawanieKasy();
             case "rokprzestepny" :
                 return new RokPrzestepny();
+            case "silnia" :
+                return new Silnia();
+            case "sumaliczbrekur" :
+                return new SumaLiczbRekur();
+            case "silniacase" :
+                return new SilniaCase();
+            case "ciagfibonacciego":
+                return new CiagFibonacciego();
+            case "szyfrcezara" :
+                return new SzyfrCezara();
 
                 default:
                     throw new Exception("Brak algorytmu");
