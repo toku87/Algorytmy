@@ -30,6 +30,12 @@ public class AlgorithmFabric {
                 return new SortowanieBabelkowe1();
             case "sortowaniewzgledempunktu" :
                 return new SortowanieWzgledemPunktu();
+            case "sortowanieprzezzliczanie" :
+                return new SortowaniePrzezZliczanie();
+            case "prostetablice" :
+                return new ProsteTablice();
+            case "krzyzowka" :
+                return new Krzyzowka();
 
                 default:
                     throw new Exception("Brak algorytmu");
