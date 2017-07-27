@@ -15,7 +15,7 @@ public class Krzyzowka extends AbstractAlgorithm{
         int liczba = Integer.parseInt(input[1]);
 
         if(Math.sqrt((double)liczba) %1 == 0){
-        System.out.println("JEST PIERWIASTKOWALNA BEZ RESZTY");
+        System.out.println("LICZBA "+ liczba + " JEST PIERWIASTKOWALNA BEZ RESZTY");
 
             double pierwiastek = Math.sqrt((double)liczba);
             int n = (int)pierwiastek;
@@ -23,6 +23,11 @@ public class Krzyzowka extends AbstractAlgorithm{
             String litery [] ={"a","b","c","d","e","f","g","h"};
 
             String tablica [][] = new String[n][n] ;
+//            if (n > litery.length - 1){
+//                for (int i = 0; i <n ; i++) {
+//                    for (int j = 0; j <n ; j++) {
+//                        tablica[i][j] = litery[i] + litery[i] + String.valueOf(j+1);
+
             for (int i = 0; i <n ; i++) {
                 for (int j = 0; j <n ; j++) {
                     tablica[i][j] = litery[i] + String.valueOf(j+1);
@@ -41,12 +46,7 @@ public class Krzyzowka extends AbstractAlgorithm{
 
             }
         } else {
-            System.out.println("NIE JEST PIERWIASTKOWALNA BEZ RESZTY");
+            System.out.println("LICZBA" + liczba + "NIE JEST PIERWIASTKOWALNA BEZ RESZTY");
         }
-
-
-
-
-
     }
 }

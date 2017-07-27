@@ -27,7 +27,7 @@ public class AlgorithmFabric {
             case "szyfrcezara" :
                 return new SzyfrCezara();
             case "sortowaniebabelkowe" :
-                return new SortowanieBabelkowe1();
+                return new SortowanieBabelkowe();
             case "sortowaniewzgledempunktu" :
                 return new SortowanieWzgledemPunktu();
             case "sortowanieprzezzliczanie" :
