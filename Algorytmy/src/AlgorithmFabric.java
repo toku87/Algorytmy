@@ -26,6 +26,10 @@ public class AlgorithmFabric {
                 return new CiagFibonacciego();
             case "szyfrcezara" :
                 return new SzyfrCezara();
+            case "sortowaniebabelkowe" :
+                return new SortowanieBabelkowe1();
+            case "sortowaniewzgledempunktu" :
+                return new SortowanieWzgledemPunktu();
 
                 default:
                     throw new Exception("Brak algorytmu");
