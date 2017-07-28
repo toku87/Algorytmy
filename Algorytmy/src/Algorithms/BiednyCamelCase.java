@@ -1,35 +1,33 @@
 package Algorithms;
 
-
 public class BiednyCamelCase extends AbstractAlgorithm {
-
-
     @Override
     public String getName() {
-        return "biedny camel case";
+        return "Biedny Camel Case";
     }
 
     @Override
     public void runAlgorithm(String[] input) {
 
-        int literka = 0;
-
-        for (int i = 1; i < input.length ; i++) {
+        int letters = 0;
+        for(int i = 1; i<input.length; i++)
+        {
             String word = input[i];
-            char[] Array = word.toCharArray();
-            for (int j = 0; j < Array.length ; j++) {
+            char[] lettersInWord = word.toCharArray();
+            for (int j = 0; j < lettersInWord.length; j++)
 
-                if (literka %2 == 0 ) {
-                    Character.toString(Array[j]).toUpperCase();
+            {
+                if (letters % 2 == 0)
+                {
+                    System.out.print(Character.toString(lettersInWord[j]).toUpperCase());
                 }
-                else {
-                    Character.toString(Array[j]).toLowerCase();
+                else
+                {
+                    System.out.print(Character.toString(lettersInWord[j]).toLowerCase());
                 }
-                literka++;
+                letters++;
             }
-
             System.out.print(" ");
         }
-
     }
 }

@@ -36,6 +36,13 @@ public class AlgorithmFabric {
                 return new ProsteTablice();
             case "krzyzowka" :
                 return new Krzyzowka();
+            case "najwiekszywspolnydzielnik" :
+                return new NajwiekszyWspolnyDzielnik();
+            case "warcaby" :
+                return new Warcaby();
+            case "dominanta" :
+                return new Dominanta();
+
 
                 default:
                     throw new Exception("Brak algorytmu");
