@@ -42,6 +42,10 @@ public class AlgorithmFabric {
                 return new Warcaby();
             case "dominanta" :
                 return new Dominanta();
+            case "wielkanoc":
+                return new Wielkanoc();
+            case "tablice":
+                return new Tablice();
 
 
                 default:
