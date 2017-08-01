@@ -46,6 +46,10 @@ public class AlgorithmFabric {
                 return new Wielkanoc();
             case "tablice":
                 return new Tablice();
+            case "testowanielisty" :
+                return new TestowanieListy();
+            case "dzialanienalistach":
+                return new DzialanieNaListach();
 
 
                 default:
