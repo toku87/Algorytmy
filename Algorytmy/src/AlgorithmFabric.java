@@ -50,6 +50,8 @@ public class AlgorithmFabric {
                 return new TestowanieListy();
             case "dzialanienalistach":
                 return new DzialanieNaListach();
+            case "prostedrzewo" :
+                return new ProsteDrzewo();
 
 
                 default:
