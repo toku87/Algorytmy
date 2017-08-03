@@ -1,11 +1,6 @@
 package Algorithms;
 
-import Algorithms.AbstractAlgorithm;
-
 public class Test extends AbstractAlgorithm {
-
-
-
 
     @Override
     public String getName() {

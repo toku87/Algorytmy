@@ -13,7 +13,6 @@ public class Warcaby extends AbstractAlgorithm {
         int liczbawierszy = Integer.parseInt(input[2]);
         int liczbakolumn = Integer.parseInt(input[1]);
 
-
         String [] kolory = {"B", input[3]};
 
         String tablica [][] = new String [liczbawierszy][liczbakolumn];
@@ -36,6 +35,5 @@ public class Warcaby extends AbstractAlgorithm {
             }
             System.out.printf("\n");
         }
-
     }
 }

@@ -21,15 +21,11 @@ public class SortowanieBabelkowe extends AbstractAlgorithm {
                     tab[j] = tab[j+1];
                     tab[j +1] = temp;
                 }
-
             }
-
         }
         for (int i = 0; i <tab.length ; i++) {
             System.out.println(tab[i]);
         }
-
-
     }
 }
 

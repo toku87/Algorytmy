@@ -15,7 +15,6 @@ public class BiednyCamelCase extends AbstractAlgorithm {
             String word = input[i];
             char[] lettersInWord = word.toCharArray();
             for (int j = 0; j < lettersInWord.length; j++)
-
             {
                 if (letters % 2 == 0)
                 {

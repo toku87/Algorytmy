@@ -25,9 +25,6 @@ public class WydawanieKasy extends AbstractAlgorithm {
                         kwotazlotowki = kwotazlotowki - banknoty[i];
                         iloscbanknotow[i]++;
                         break;
-
-
-
                     }
                 }
             }
@@ -46,11 +43,8 @@ public class WydawanieKasy extends AbstractAlgorithm {
             }
             for (int j = 0; j < grosze.length ; j++) {
                 System.out.printf("%d x %d groszy \n", iloscgroszy[j], grosze[j]);
-
             }
-
         }
-
     }
 
 

@@ -16,6 +16,5 @@ public class SumaLiczb extends AbstractAlgorithm {
             System.out.println(suma);
         }
         System.out.println("Ostateczna wartość :" + suma);
-
     }
 }

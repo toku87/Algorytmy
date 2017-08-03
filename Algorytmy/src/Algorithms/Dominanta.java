@@ -10,7 +10,6 @@ public class Dominanta extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
         int n = input.length - 1;
         int[] T = new int[n];
-
         int max = 0;
 
         for (int i = 0; i < n; i++) {
@@ -31,10 +30,7 @@ public class Dominanta extends AbstractAlgorithm {
                 result = i;
             }
         }
-
         System.out.printf("Najczęściej wsytepuje: %d, Ile razy ??? %d", result, L[result]);
-
-
     }
 }
 

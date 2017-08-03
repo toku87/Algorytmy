@@ -23,6 +23,5 @@ public class DzialanieNaListach extends AbstractAlgorithm{
         Kolory.add(dl, "Zielony");
 
         System.out.println(Kolory);
-
     }
 }

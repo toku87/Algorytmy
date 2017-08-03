@@ -32,8 +32,6 @@ public class AlgorithmFabric {
                 return new SortowanieWzgledemPunktu();
             case "sortowanieprzezzliczanie" :
                 return new SortowaniePrzezZliczanie();
-            case "prostetablice" :
-                return new ProsteTablice();
             case "krzyzowka" :
                 return new Krzyzowka();
             case "najwiekszywspolnydzielnik" :

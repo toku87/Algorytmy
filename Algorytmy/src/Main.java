@@ -11,12 +11,5 @@ public class Main {
 //        System.out.println("Wykonujemy algorytm" + algorithm.getName());
 
         algorithm.runAlgorithm(args);
-
-
-
-//        for (String s : args) {
-//            System.out.println(s);}
-
-
     }
 }

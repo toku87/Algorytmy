@@ -12,7 +12,6 @@ public class CiagFibonacciego extends AbstractAlgorithm {
         int n = Integer.parseInt(input[1]);
         System.out.println(CiagFibonacciego(n));
     }
-
     private int CiagFibonacciego(int n) {
         if (n == 0)
             return 0;
@@ -20,6 +19,4 @@ public class CiagFibonacciego extends AbstractAlgorithm {
             return 1;
         return (CiagFibonacciego(n - 1)) + (CiagFibonacciego(n - 2));
     }
-
-
 }

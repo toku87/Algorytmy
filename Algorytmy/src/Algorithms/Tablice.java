@@ -18,12 +18,10 @@ public class Tablice extends AbstractAlgorithm {
             tab[i] = mRand.nextInt();
 
 //            System.out.println(tab[i]);
-
         }
 
         for (int i = 0, j = 0; i < parzyste.length; i++, j = j + 2) {
             parzyste[i] = j;
-
 //            System.out.println(parzyste[i]);
         }
 
@@ -61,7 +59,6 @@ public class Tablice extends AbstractAlgorithm {
             array[i] = Integer.parseInt(input[i+1]);
         }
         int[] array1 = new int[n+1];
-
     }
 }
 

@@ -46,22 +46,12 @@ public class Wielkanoc extends AbstractAlgorithm{
         float miesiacWielkanocy = ((int)(h + l - 7 * m + 114)/31);
 
         String miesiac;
-
-
         if (miesiacWielkanocy == 4) {
            miesiac = "kwiecień";
         }
         else {
             miesiac = "marzec";
         }
-
-
-
-
         System.out.println(dzienWielkanocy + "  " + miesiac);
-
-
-
-
     }
 }

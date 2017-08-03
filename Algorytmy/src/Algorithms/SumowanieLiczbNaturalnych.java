@@ -9,7 +9,6 @@ public class SumowanieLiczbNaturalnych extends AbstractAlgorithm {
 
         return "Sumowanie Liczb Naturalnych";
 }
-
     @Override
     public void runAlgorithm(String[] input) {
 

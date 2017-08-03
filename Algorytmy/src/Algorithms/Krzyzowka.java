@@ -23,18 +23,10 @@ public class Krzyzowka extends AbstractAlgorithm{
             String litery [] ={"a","b","c","d","e","f","g","h"};
 
             String tablica [][] = new String[n][n] ;
-//            if (n > litery.length - 1){
-//                for (int i = 0; i <n ; i++) {
-//                    for (int j = 0; j <n ; j++) {
-//                        tablica[i][j] = litery[i] + litery[i] + String.valueOf(j+1);
-
             for (int i = 0; i <n ; i++) {
                 for (int j = 0; j <n ; j++) {
                     tablica[i][j] = litery[i] + String.valueOf(j+1);
-
-
                 }
-
             }
 
             for (int i = 0; i <n ; i++) {
@@ -42,8 +34,6 @@ public class Krzyzowka extends AbstractAlgorithm{
                     System.out.printf("%s ", tablica[i][j]);
                 }
                 System.out.printf("\n");
-
-
             }
         } else {
             System.out.println("LICZBA" + liczba + "NIE JEST PIERWIASTKOWALNA BEZ RESZTY");
