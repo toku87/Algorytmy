@@ -3,7 +3,7 @@ package Algorithms;
 
 import java.util.Arrays;
 
-public class WydawanieKasy extends AbstractAlgorithm {
+public class WydawaniePieniedzy extends AbstractAlgorithm {
     @Override
     public String getName() {
         return "wydawanie kasy";

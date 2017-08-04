@@ -117,4 +117,35 @@ public class mList {
 
         }
     }
+    public void deleteElement(int elementToDelete, mList list){
+        Element toDelete = list.getElementForward(elementToDelete, list); //wyszukujemy pierwszy element z wartością
+
+        list.counter--; //zmniejszamy licznik o 1
+        if(toDelete.prev != null) //jeżeli nasz element ma poprzednika
+        {
+            Element prevOfDelete = toDelete.prev; // pobieramy element poprzedzający element do usunięcia
+            prevOfDelete.next = toDelete.next; // temu elementowi pobranemu wyżej ustawiamy jako następnik
+            //następnik elementu który chcemy usunąć
+        }
+        else //jeżeli nie mamy poprzednika
+        {
+            list._head = toDelete.next; //oznacza to, że byliśmy głową, więc teraz głową staje się następnik elementu
+            //do usunięcia
+        }
+
+        if(toDelete.next != null) //jeżeli nasz element ma następnika
+        {
+            Element nextOfDelete = toDelete.next; // pobieramy element następny po elemencie do usunięcia
+            nextOfDelete.prev = toDelete.prev; // temu elementowi pobranemu wyżej ustawiamy jako poprzednik
+            //poprzednik elementu który chcemy usunąć
+        }
+        else //jeżeli nie mamy następnika
+        {
+            list._tail = toDelete.prev; //oznacza to, że byliśmy ogonem, więc teraz ogonem staje się poprzednik elementu
+            //do usunięcia
+        }
+
+        toDelete = null; //GarbageCollector zrobi resztę, ponieważ nie ma na niego żadnego wskaźnika w tym momencie
+
+    }
 }

@@ -12,8 +12,8 @@ public class AlgorithmFabric {
                 return new SumowanieLiczbNaturalnych();
             case "sumowanieliczb" :
                 return new SumaLiczb();
-            case "wydawaniekasy" :
-                return new WydawanieKasy();
+            case "wydawaniepieniedzy" :
+                return new WydawaniePieniedzy();
             case "rokprzestepny" :
                 return new RokPrzestepny();
             case "silnia" :
@@ -42,15 +42,20 @@ public class AlgorithmFabric {
                 return new Dominanta();
             case "wielkanoc":
                 return new Wielkanoc();
-            case "tablice":
-                return new Tablice();
+            case "tablicawyszukiwaniaminmax":
+                return new TablicaWyszukiwaniaMinMax();
             case "testowanielisty" :
                 return new TestowanieListy();
             case "dzialanienalistach":
                 return new DzialanieNaListach();
             case "prostedrzewo" :
                 return new ProsteDrzewo();
-
+            case "testkopca" :
+                return new TestKopca();
+            case "przeliczaniesystemow":
+                return new PrzeliczanieSystemow();
+            case "onp":
+                return new ONP();
 
                 default:
                     throw new Exception("Brak algorytmu");
