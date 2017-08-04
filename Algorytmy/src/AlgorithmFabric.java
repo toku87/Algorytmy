@@ -56,6 +56,10 @@ public class AlgorithmFabric {
                 return new PrzeliczanieSystemow();
             case "onp":
                 return new ONP();
+            case "duplikat":
+                return new Duplikat();
+            case "todelete":
+                return new ToDelete();
 
                 default:
                     throw new Exception("Brak algorytmu");
