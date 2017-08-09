@@ -48,9 +48,8 @@ public class TablicaWyszukiwaniaMinMax extends AbstractAlgorithm {
                 min = tablica[i];
                 iterator++;
             }
-
-        }System.out.println(min + " " + String.valueOf(iterator2));
-
+        }
+        System.out.println(min + " " + String.valueOf(iterator2));
     }
 }
 

@@ -29,8 +29,6 @@ public class ToDelete extends AbstractAlgorithm {
         }
         for (Integer i : lista)
             System.out.printf("%d ",i);
-
-
     }
 }
 

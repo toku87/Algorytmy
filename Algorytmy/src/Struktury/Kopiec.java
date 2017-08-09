@@ -46,7 +46,6 @@ public class Kopiec {
                 if (j + 1 < _counter && _date[j + 1] > _date[j]) {
                     j = j + 1;
                 }
-
                 if (lastElement >= _date[j]) {
                     break;
                 } else {
@@ -59,7 +58,6 @@ public class Kopiec {
         }
         return root;
     }
-
     public void sortSheep() {
         int size = _counter;
         int[] sorted = new int[size];

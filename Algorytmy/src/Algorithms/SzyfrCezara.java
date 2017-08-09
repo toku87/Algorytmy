@@ -4,7 +4,7 @@ package Algorithms;
 public class SzyfrCezara extends AbstractAlgorithm {
     @Override
     public String getName() {
-        return "syfrujemy szyfree cezara";
+        return "syfrujemy szyfrem cezara";
     }
 
     private String[] _litery = {"a", "b", "c", "d", "e", "f", "g", "h", "i",

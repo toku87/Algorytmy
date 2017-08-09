@@ -45,11 +45,7 @@ public class ONP extends AbstractAlgorithm{
                 default:
                     stack.push(Integer.parseInt(input[i]));
                     break;
-
-
             }
         }
-
-
     }
 }

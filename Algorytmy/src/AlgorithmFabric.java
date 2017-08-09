@@ -60,6 +60,12 @@ public class AlgorithmFabric {
                 return new Duplikat();
             case "todelete":
                 return new ToDelete();
+            case "odwrotnanotacja2":
+                return new OdwrotnaNotacja2();
+            case "nww":
+                return new NajwiekszaWspolnaWielokrotnosc();
+            case "spacjecamelcase":
+                return new SpacjeCamelCase();
 
                 default:
                     throw new Exception("Brak algorytmu");

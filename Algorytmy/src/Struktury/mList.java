@@ -114,7 +114,6 @@ public class mList {
             afterNext.prev = p;
             after.next = p;
             list.counter++;
-
         }
     }
     public void deleteElement(int elementToDelete, mList list){
